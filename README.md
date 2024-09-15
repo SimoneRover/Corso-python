@@ -5,7 +5,7 @@ Questa repository contiene le lezioni ed eventuali risorse del corso di Python.
 Per seguire il corso occorre avere diversi tool.
 ### Python
 Scaricare Python dal sito ufficiale [python.org](https://www.python.org/downloads/). Al momento l'ultima versione è la 3.12.6.<br>
-Se dopo l'installazione non viene trovato il comando "python", aggiungere il percorso di installazione di Python alla variabile d'ambiante PATH del proprio PC.
+Se dopo l'installazione non viene trovato il comando "python", aggiungere il percorso di installazione di Python alla variabile d'ambiente PATH del proprio PC.
 ### Visual Studio Code
 - Scaricare l'editor Visual Studio Code dal sito ufficiale [code.visualstudio.com](https://code.visualstudio.com/Download).
 - (Opzionale) Creare un nuovo profilo "Python".
