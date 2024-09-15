@@ -28,7 +28,7 @@ print("Resto: " + str(resto))
 
 # Puoi effettuare operazioni con variabili.
 addendo1 = 20
-addendo2 = 20
+addendo2 = 1
 somma = addendo1 + addendo2
 
 # Puoi stampare il contenuto di una variabile.
@@ -36,11 +36,12 @@ print(somma)
 
 # Puoi chiedere all'utente di inserire dei dati.
 numero = input("Inserisci numero: ")
+print(numero)
 
 # Puoi controllare l'uguaglianza
 numero == 20 # True/False
 
-# Puoi verificate che una variabile sia o meno None
+# Puoi verificare che una variabile sia o meno None
 print(numero is None) # True/False
 print(numero is not None)
 
