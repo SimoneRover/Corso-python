@@ -42,3 +42,22 @@ Per risalire la gerarchia di cartella usiamo il comando `cd ..`, ad esempio
 PS D:\Corso-python\Lezione1> cd ..
 PS D:\Corso-python>
 ```
+
+## Lezioni
+### Lezione 1
+11 settembre 2024
+
+Argomenti trattati:
+- Variabili e operazioni con variabili
+- Le funzioni standard `print`, `len`, `type` e `input`
+- Controllo del flusso di esecuzione
+- Il costrutto IF, ELSE, ELIF
+- Il costrutto WHILE, FOR
+- Differenze tra WHILE e FOR
+- Cenni all'algebra booleana (valori di verità e condizioni)
+- Prima visione degli esercizi compito
+
+Prossima lezione concordata per venerdì 20 settembre.
+
+### Lezione 2
+TODO
