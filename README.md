@@ -21,6 +21,8 @@ L'ecosistema di Git si sostanzia in alcuni passi essenziali:
 - **Push**: Invia le modifiche, precedentemente aggiunte in un *commit*, alla repository remota.
 - **Pull**: Prende le modifiche dalla repository remota e aggiorna i file locali. Il processo di ricezione delle modifiche dalla repository remota è chiamato *fetch*.
 
+**NOTA:** di default solo il creatore della repository può inviare modifiche. Inviare altri eventuali file (come gli esercizi assegnati a fine lezione) su Discord.
+
 ## Eseguire un file Python
 Per eseguire un file Python possiamo utilizzare la console di Visual Studio Code.<br>
 Per aprire la finestra del terminale premere `Ctrl + ò`.<br>
