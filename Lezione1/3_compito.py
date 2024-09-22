@@ -13,8 +13,28 @@
 # Verificare se il primo numero è divisibile per il secondo senza usare l'operatore
 # 'modulo' (%).
 
+a = 10
+b = 2
+
 # 4. [DIFFICILE] Chiedere un numero all'utente e verificare se è un numero primo
 # cercando di fornire una soluzione ottimale (ovvero il minor numero di operazioni).
+
+numero = 113
+primo = True
+
+if numero == 1 or numero == 2:
+    print("Primo")
+else:
+    divisore = 2
+    while divisore < numero // 2:
+        if numero % divisore == 0:
+            primo = False
+            print("Non è primo")
+            break
+        divisore = divisore + 1
+    if primo:
+        print("Primo")
+
 
 # 5. [DIFFICILE] Data la seguente lista ordinata di numeri interi, chiedere all'utente un numero
 # e verificare se il numero si trova nella lista cercando di fornire una soluzione ottimale 
