@@ -41,7 +41,7 @@ greet("Simone")
 
 # Una funziona può terminare restituendo un valore (come la funzione "input")
 def somma(a, b):
-    return a + b
+    return a + b # restituisci
 
 # Ora possiamo sommare agilmente:
 risultato = somma(10, 43)
@@ -58,6 +58,8 @@ funzione()
 # Ovviamente, una funzione può essere richiamata all'interno di un altra
 def doppio(x):
     return somma(x, x)
+
+print(doppio(20))
 
 # Una funzione può richiamare se stessa, questo processo si chiama ricorsione
 # In generale, una funzione ricorsiva è divisa in 3 parti:

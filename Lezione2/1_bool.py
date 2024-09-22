@@ -20,15 +20,15 @@ b_or_b = b or b # False
 
 # Priorità degli operatori booleani
 # 1. NOT
-# 2. AND
-# 3. OR
+# 2. AND (moltiplicazione)
+# 3. OR (somma)
 # Le parentesi possono cambiare l'ordine di priorità degli operatori (proprio come in algebra!)
 # In caso di parentesi, si calcola prima la condizione più interna.
 
 # Operatori composti
 
-# NAND - Negazione di AND
-not_a_and_a = not a_and_a # False
+# NAND - Negazione di AND (NOT AND)
+not_a_and_a = not a_and_a # False - not (a and a)
 not_a_and_b = not a_and_b # True
 not_b_and_b = not b_and_b # True
 
@@ -43,9 +43,11 @@ a_xor_b = (a and not b) or (not a and b) # True
 b_xor_b = (b and not b) or (not b and b) # False
 
 # XNOR - Negazione di XOR, True se entrambe (tutte) le proposizioni hanno lo stesso valore di verità
-a_xnor_a = (a and a) or (not a and not a) # True
+a_xnor_a = (a and a) or (not a and not a) # True - not a_xor_a
 a_xnor_b = (a and b) or (not a and not b) # False
 b_xnor_b = (b and b) or (not b and not b) # True
+
+a == b # se a e b sono predicati
 
 # Le espressioni booleane godono di utili proprietà (proprio come gli operatori matematici)
 

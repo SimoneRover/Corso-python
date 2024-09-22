@@ -7,3 +7,5 @@
 # 4. [DIFFICILE] Un termine della serie di Fibonacci è ottenuto dalla somma dei due termini precedenti.
 # Scrivere una funzione "fibonacci" che dato un numero "n" calcoli e stampi i primi "n" termini della serie di Fibonacci.
 # La serie parte dai due termini 1, 1
+
+# 1, 1, 2, 3, 5, 8, 13, 21 ...
