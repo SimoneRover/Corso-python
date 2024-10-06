@@ -62,4 +62,24 @@ Argomenti trattati:
 Prossima lezione concordata per venerdì 20 settembre.
 
 ### Lezione 2
+22 settembre 2024
+
+Argomenti trattati:
+- Correzione esercizi Lezione 1
+- Algebra booleana:
+    - Operatori booleani semplici
+    - Operatori booleani composti
+    - Proprietà degli operatori booleani
+    - Teoremi dell'algebra booleana
+- Funzioni:
+    - Definizione di nuove funzioni
+    - Parametri in ingresso
+    - Parametri opzionali
+    - Parola chiave `return`
+    - Scope della funzione
+    - Funzioni ricorsive
+
+Prossima lezione concordata per sabato 28
+
+### Lezione 3
 TODO
